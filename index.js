@@ -1,6 +1,6 @@
 'use strict';
-var strictUriEncode = require('strict-uri-encode');
-var decodeComponent = require('decode-uri-component');
+const strictUriEncode = require('strict-uri-encode');
+const decodeComponent = require('decode-uri-component');
 
 function encoderForArrayFormat(options) {
 	switch (options.arrayFormat) {
